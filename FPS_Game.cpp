@@ -8,6 +8,7 @@
 # include <string>
 # include <iomanip>
 # include "Player.h"
+# include <fstream>
 
 int main()
 {
