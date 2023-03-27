@@ -16,6 +16,7 @@ class player
 		int score;
 		double accuracy;
 		int* next;
+		int currency;
 
 
 	public:
@@ -23,6 +24,7 @@ class player
 		string displayPlayername();
 		double getAccuracy();
 		int getscore();
+		int getcurrency();
 };
 
 

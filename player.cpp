@@ -14,6 +14,7 @@ player::player(string name, int* nextPlayer)
 	this->next = NULL;
 	this->score = 0;
 	this->accuracy = 100.00;
+	this->currency = 0;
 
 }
 string player::displayPlayername()
@@ -31,4 +32,9 @@ double player::getAccuracy()
 int player::getscore()
 {
 	return this->score;
+}
+
+int player::getcurrency()
+{
+	return this->currency;
 }
