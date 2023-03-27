@@ -4,6 +4,7 @@
 # include <string>
 # include <iomanip>
 # include "Player.h"
+# include "fstream"
 
 using namespace std;
 
@@ -20,4 +21,14 @@ string player::displayPlayername()
 
 	return this -> userName;
 
+}
+
+double player::getAccuracy() 
+{
+	return this->accuracy;
+}
+
+int player::getscore()
+{
+	return this->score;
 }
