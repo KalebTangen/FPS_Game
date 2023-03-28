@@ -9,6 +9,9 @@
 # include <iomanip>
 # include "Player.h"
 # include <fstream>
+# include "glut.h"
+
+
 
 int main()
 {
