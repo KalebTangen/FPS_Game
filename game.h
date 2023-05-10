@@ -6,7 +6,21 @@
 # include <string>
 # include <iomanip>
 # include <fstream>
-# include <Player.h>
-# include <Target.h>
 
 using namespace std;
+
+class game
+{
+public:
+	game();	
+	void selectNumOfPlayer(int numPlayers);
+	getNumPlayers();
+
+private:
+	int numberPlayers;
+	int numberTargets 
+};
+
+
+
+
